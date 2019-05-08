@@ -21,23 +21,30 @@
 
         <style>
             body {
-                font-family: 'Garamond', 'Noto', sans-serif;
+                font-family: 'Garamond';
                 font-size: 14px;
                 margin: 0;
                 padding: 24px;
                 background-color: #fafafa;
             }
-            .centered {
+            h2 {
+                font-family: 'Garamond';
+                font-size: 14px;
+            }
+            .shrink {
                 max-width: 600px;
+            }
+            .centered {
+
                 margin-left: auto;
                 margin-right: auto;
             }
         </style>
     </head>
     <body>
-        <div class="vertical-section-container centered">
+        <div class="shrink centered">
             <h2>McMaster Blockcerts verification demo</h2>
-                <div><img src="./McMaster-Logo.jpg"/></div>
+                <div centered><img src="./McMaster-Logo.jpg"/></div>
                     <blockcerts-verifier display-mode="full"></blockcerts-verifier>
 
         </div>
