@@ -7,8 +7,6 @@
         <title>McMaster blockcerts-verifier demo</title>
 
         <script src="./webcomponents-loader.js"></script>
-        <script type="module" src="./demo-snippet.js"></script>
-        <script type="module" src="./demo-pages-shared-styles.js"></script>
         <script type="module" src="./main.js"></script>
 
         <script>
@@ -16,15 +14,25 @@
           // the module is loaded.
           window.process = {
             env: {
-              NODE_ENV: 'development'
+              NODE_ENV: 'production'
             }
           };
         </script>
 
-        <custom-style>
-            <style is="custom-style" include="demo-pages-shared-styles">
-            </style>
-        </custom-style>
+        <style>
+            body {
+                font-family: 'Roboto', 'Noto', sans-serif;
+                font-size: 14px;
+                margin: 0;
+                padding: 24px;
+                background-color: #fafafa;
+            }
+            .centered {
+                max-width: 600px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
     </head>
     <body>
         <div class="vertical-section-container centered">
