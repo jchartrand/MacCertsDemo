@@ -277,7 +277,7 @@
       </div>  
       <dl class='buv-c-verification-process__step-list  buv-js-verification-process__step-list'>
         ${o}
-        ${function({chain:e="",transactionLink:t="",isTestChain:n,isVisible:r=!1}){const i=["buv-c-verification-step","buv-qa-verification-step","is-final",r?"is-visible":"",n?"is-test":""].join(" "),o=["buv-c-verification-substep","buv-u-excluded-from-flow","buv-u-full-width","buv-o-text-12","is-final",r?"is-visible":""].join(" "),a=n?"Mocknet credentials are used for test purposes only. They are not recorded on a blockchain, and they should not be considered verified Blockcerts.":B`This is a valid ${e} certificate.<br/>
+        ${function({chain:e="",transactionLink:t="",isTestChain:n,isVisible:r=!1}){const i=["buv-c-verification-step","buv-qa-verification-step","is-final",r?"is-visible":"",n?"is-test":""].join(" "),o=["buv-c-verification-substep","buv-u-excluded-from-flow","buv-u-full-width","buv-o-text-12","is-final",r?"is-visible":""].join(" "),a=n?"Mocknet credentials are used for test purposes only. They are not recorded on a blockchain, and they should not be considered verified Blockcerts.":B`This is a valid ${e} certificate issued by McMaster University.<br/>
       <a class='buv-o-link' href='${t}' hidden?='${!t}'>
         <span class='buv-o-link__text--underline'>View transaction link</span>
       </a>`;return B`
